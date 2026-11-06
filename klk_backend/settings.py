@@ -48,7 +48,7 @@ import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.parse(
-        'postgresql://klk_system_db_am0t_user:asgFBjr9opqlw1YHQbUrjwf6c7tHpKc2@dpg-dan8frbm8hqs73ae7ru0-a/klk_system_db_am0t',
+        'postgresql://klk_db_cpu9_user:7BtSTVKHYJ9a1dtiEHK8nqAfVKbZ7Gj7@dpg-dbmrj7ijnfac73b9sl2g-a/klk_db_cpu9',
         conn_max_age=600,
         ssl_require=True
     )
